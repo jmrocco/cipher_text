@@ -8,9 +8,7 @@
 #include <cmath>
 
 //function declarations
-#ifndef MARMOSET_TESTING
 int main();
-#endif
 char *encode( char *plaintext, unsigned long key );
 char *decode( char *ciphertext, unsigned long key );
 
